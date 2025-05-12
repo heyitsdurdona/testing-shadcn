@@ -60,15 +60,6 @@ import {
   ContextMenuTrigger,
 } from "@/components/ui/context-menu"
 
-
-
-
-
-
-
-
-
-
 export default function App() {
   const [date, setDate] = useState(new Date());
   return (
@@ -201,14 +192,6 @@ export default function App() {
           <ContextMenuItem>Subscription</ContextMenuItem>
         </ContextMenuContent>
       </ContextMenu>
-
-
-
-
-
-
-
-
 
     </div>
   )
